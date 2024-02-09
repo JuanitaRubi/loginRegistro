@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 
-const Login=({onClose}: {onClose:()=>void}) => {
+const Login=({onClose}) => {
     const [email, setEmail]= useState('')
     const [password, setPassword]=useState('')
     

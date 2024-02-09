@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from "@/public/styles/styles.module.css"
 
-const Register = ({ onClose }: { onClose: () => void }) => {
+const Register = ({ onClose }) => {
 
 
   const [name, setName] = useState('');
