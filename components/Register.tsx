@@ -4,6 +4,8 @@ import { useState } from "react";
 import styles from "@/public/styles/styles.module.css"
 
 const Register = ({ onClose }: { onClose: () => void }) => {
+
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -36,3 +38,7 @@ const Register = ({ onClose }: { onClose: () => void }) => {
 };
 
 export default Register;
+function useClient() {
+  throw new Error("Function not implemented.");
+}
+
