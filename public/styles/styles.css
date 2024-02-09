@@ -1,0 +1,23 @@
+/* styles.css */
+
+/* Estilos generales para centrar el contenido */
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajusta según sea necesario */
+  }
+  
+  .modal-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Agrega espacio entre los elementos */
+  label,
+  input,
+  button,
+  p {
+    margin-bottom: 10px;
+  }
+  

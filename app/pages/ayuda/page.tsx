@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from "@/styles/styles.module.css"
+import styles from "@/public/styles/styles.module.css"
 import Footer from '@/components/Footer';
 
 export default function ayuda(){

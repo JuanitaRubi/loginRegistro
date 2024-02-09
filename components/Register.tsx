@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
+
 const Register = ({ onClose }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -9,7 +10,7 @@ const Register = ({ onClose }) => {
 
   const handleRegister = () => {
     console.log(`Registro con nombre: ${name}, correo: ${email}, contraseña: ${password}`);
-    // Aquí podrías realizar acciones adicionales, como enviar los datos al servidor.
+    // Aquí se podrian realizar acciones adicionales, como enviar los datos al servidor.
   };
 
   return (
